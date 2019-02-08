@@ -1,7 +1,9 @@
-## SearchView - RecyclerView
-####Filtering/searching items in a RecyclerView.
+# SearchView + RecyclerView
+This repo show how to filtering/searching items in a RecyclerView list.
 
-###Usage
+**Level :** *Beginner*
+
+##Usage 
 MainFragment.java:
 ```java
     @Override
@@ -28,7 +30,7 @@ MainFragment.java:
 ```
 Simply swap out getName() for any other getter you wish to make searchable. E.g, in this project, getName() could be replaced with getSubText().
 
-###OnClick Action
+##OnClick Action
 * ```MemberData.java``` implements Serializable
 * Set the onClickListener in the Adapter:
 ```java
@@ -62,12 +64,6 @@ public class DetailActivity extends AppCompatActivity {
     }
 ```
 
-
-
-
-
-
-
-
-
 Based on [this Stack Overflow post](http://stackoverflow.com/questions/30398247/how-to-filter-a-recyclerview-with-a-searchview/30429439#30429439) with some changes.
+
+**If you have any question please feel free to email me at : johanadam95@gmail.com**
